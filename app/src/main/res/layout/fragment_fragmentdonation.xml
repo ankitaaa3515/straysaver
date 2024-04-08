@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/carda"
+    android:id="@+id/container"
+    tools:context=".fragmentdonation">
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Donation Form"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="290dp"
+        android:layout_margin="50dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Donation Amount"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextDonationAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter donation amount"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Contact Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Details"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/paw1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Click Here"
+                android:textSize="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxAgreeTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="I agree to the terms and conditions"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="-25sp"
+            android:backgroundTint="#212A5E"
+            android:textSize="20dp"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+

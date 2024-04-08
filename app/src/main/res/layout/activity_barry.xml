@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carda"
+    tools:context=".barry">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐶Barry-Saint Bernard🐶"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp">
+    </TextView>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="290dp">
+
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="100dp"
+            android:textColor="@color/black"
+            android:text="We all know how large and monstrous Saint Bernards are. But they’re nothing but big, cuddly bear. Originally, they were bred as rescue dogs in cold, harsh climates. They always went out on missions in sets of two so, once the person was found, one would sit on them for warmth while the other went for help.Barry the Saint Bernard was so good at what he did, rescuing over 40 victims during the course of his 12 years, that event to this day, there’s always a rescue dog named Barry at the monastery where the original lived."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        </ScrollView>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

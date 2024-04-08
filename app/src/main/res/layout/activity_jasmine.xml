@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carda"
+    tools:context=".jasmine">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐶Jasmine Gryhound🐶"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp">
+    </TextView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="290dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="This black Labrador retriever (although some believed him to be a Newfoundland dog) is long gone but his sweet memory most certainly is not.
+  He got his name from living near the Swansea River in Wales, England. But why would you name a pet after the body of water you live next to? Well,
+  only if the brave animal risked his own life to save almost 30 people over the course of his short life.
+During the mid-thirties, when Swansea Jack was alive, he saw a little boy drowning in the water. He jumped in, pulled the boy to shore, and then continued to jump in and save people as time went on. He was a hero.
+They awarded him the silver cup for bravery from the mayor of London, and he even had a statue made of himself."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+

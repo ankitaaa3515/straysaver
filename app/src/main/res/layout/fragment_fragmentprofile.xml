@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/carda"
+    tools:context=".fragmentprofile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/pro2"
+            android:layout_marginLeft="140dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helpline"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="25dp"/>
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginLeft="200dp"-->
+<!--            android:layout_marginTop="40dp"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0) 98201 22602."
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Email:-"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginLeft="121dp"-->
+<!--            android:layout_marginTop="30dp"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginLeft="200dp"-->
+<!--            android:layout_marginTop="-40dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Contact No. :-"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20dp"-->
+<!--            android:inputType="number"-->
+<!--            android:layout_marginLeft="60dp"-->
+<!--            android:layout_marginTop="30dp"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginLeft="200dp"-->
+<!--            android:layout_marginTop="-40dp"/>-->
+
+
+
+        <Button
+            android:id="@+id/edit_profile_button"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="230dp"
+            android:backgroundTint="#1E405A"
+            android:text="logout"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

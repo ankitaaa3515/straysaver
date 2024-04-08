@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carda"
+    tools:context=".Glenn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐶Glenn and Buzz🐶"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:textColor="@color/black"
+            android:text="Have you ever heard of a seeing eye dog…dog? Well, that’s pretty much what Buzz is for his best buddy Glenn in this one true dog stories. Glenn, the Jack Russell Terrier, is blind in both eyes and Buzz leads him around all day long. He helps his friend find the food bowl, avoid walls, and safely go for a walk each day. Buzz and Glenn, now that’s true friendship!"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+

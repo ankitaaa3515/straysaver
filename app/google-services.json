@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947752223544",
+    "project_id": "straysaver-38836",
+    "storage_bucket": "straysaver-38836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947752223544:android:6569167693010f3758f7cd",
+        "android_client_info": {
+          "package_name": "com.example.straysaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy_XoVLcqGvj8Zt1V46c3lRU1OjuGtv24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

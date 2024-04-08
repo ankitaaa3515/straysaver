@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentabout">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/carda"
+        tools:context=".About">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="65dp"
+            android:src="@mipmap/mainicon"/>
+
+        <Button
+            android:id="@+id/image22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch Video"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="100dp"/>
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="290dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Story"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="115dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="StraySaver was founded with a simple yet profound goal: to make a meaningful difference in the lives of stray dogs and the communities they inhabit. It all began with a group of passionate individuals who shared a common vision: to create a world where no stray dog is left behind. Since our inception, we have been dedicated to this noble cause, striving tirelessly to rescue and care for stray dogs in need."
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What We Do"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="120dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At StraySaver, our work is multifaceted and encompasses various aspects of rescue and rehabilitation. We collaborate with local shelters, animal control agencies, and compassionate individuals to rescue stray dogs from the streets, providing them with immediate medical attention, nourishment, and shelter. Our team of dedicated volunteers and professionals works tirelessly to rehabilitate these dogs, addressing their physical and emotional needs and preparing them for adoption into loving forever homes."
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Values"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="130sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compassion:-"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We believe in treating every stray dog with kindness, respect, and empathy, regardless of their background or circumstances."
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dedication:-"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We are deeply committed to our mission of rescuing and rehoming stray dogs, and we spare no effort in ensuring the well-being and happiness of every dog in our care."
+                    android:layout_marginLeft="20dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get Involved"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="130sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whether you're looking to adopt a furry friend, volunteer your time and skills, or make a donation to support our cause, there are countless ways to get involved with StraySaver. Together, we can make a difference in the lives of stray dogs and build a more compassionate world for all.
+
+Thank you for your support and for joining us on this journey to rescue hope, one paw at a time."
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

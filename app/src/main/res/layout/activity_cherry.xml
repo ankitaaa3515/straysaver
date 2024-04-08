@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/carda"
+    android:layout_height="match_parent"
+    tools:context=".Cherry">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐶Cherry🐶"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp">
+    </TextView>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="290dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="60dp"
+            android:textColor="@color/black"
+            android:text="I started interacting with dog first when I was 14 years old and studying in class 8. There was a bitch near my house. Her body was zigsaw pattern of black and white. I used to give her bread, biscuit, roti and she used to wag her tail. when she was lying and i stood near her, she used to slowly lift her leg and show her pussy.
+She mated with multiple dogs during rainy reason and at times the penis of dog remained struck inside her vagina, and they used force to pull it out.
+That bitch gave birth to many kids, and at times i saw kids mating with their mother. The strangest thing which i noticed that when that bitch died, her kids ate her meat.
+Male dogs have strange habit of urinating on car tyres, motorcycle tyres — even the space might be available, they will walk upto the tyre, lift their leg and urinate. The dogs in Giridih, and at my place Hazaribagh were doing the same thing. In Hazaribagh, there are twelve dogs in my colony — I mean 12 street dogs. Intially when i came to this place their population was only 2, but over the years, their population grew to 12. Their peak population at one time was 17.
+I befriended many dogs, but some of them died. Now three dogs are my friend -two male dog, and one female dog. Whenever i go to chowk, they come after me wagging their tail. I feed them with biscuit, and when chowmein shop was open at chowk, i fed them with chowmein and chicken pieces. One person had fight with me, these dogs hounded him like that he stopped coming to my colony due to fear of dogs.
+One healthy dog, who is biggest fan of mine used to come to my house and sleep on stairs. On the Diwali night of 2022, this dog sat near the image of Gods in my worship room.
+So God and Dog are related. If God is kind on you, you will have many dogs as followers."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
+
